@@ -1,0 +1,12 @@
+
+local:
+  username: "postgres"
+  password: "Indiamart@123"
+  database: "Simple_Inventory"
+  tablename:  "products"
+  
+dev:
+  username: "abc"
+  password: "xyz"
+  database: "postgres"
+
