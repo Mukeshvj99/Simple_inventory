@@ -37,4 +37,35 @@ snapshot of the Application with Outputs :
 
 Rest API's End Points :
 
- 1) Get Request -  ![alt text](image.png)
+        Get - /product/{id}
+
+        Post/Create - /products  contains body which have data that should created in Inventory
+
+        Put/Update - /product/{id}  contains body which have data that should be updated in Inventory
+
+        Delete   - /product/{id}  - delete the product from the Inventory 
+
+        Get - /product?start=0&count=3  - Get the products starting from 0 till 3 values
+
+
+Results ------------------------------
+
+ 1) Get Product details of certain ID from Inventory - 
+
+  ![alt text](image.png)
+
+ 2) Creating a New Product in Inventory -
+ 
+  ![alt text](image-1.png)
+
+ 3) Get all the Product Details till Certain count from Inventory -
+ 
+  ![alt text](image-2.png)
+
+ 4) Update the Product Details in the Inventory - 
+ 
+ ![alt text](image-4.png)
+
+ 5) Delete the Product from the Inventory - 
+ 
+  ![alt text](image-5.png)
